@@ -35,6 +35,7 @@ int main() {
 	set<int> s = {1, 2, 3};
 	set<int> ::iterator it;
 	for(it=s.begin(); it!=s.end(); it++) cout << *it << endl;
+	//也可以for(auto it=s.begin(); it!=s.end(); it++) cout << *it << endl;
 	return 0;
 }
     for(auto i:s) cout << i << endl;  //此法較簡便
