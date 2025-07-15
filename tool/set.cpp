@@ -39,3 +39,11 @@ int main() {
 	return 0;
 }
     for(auto i:s) cout << i << endl;  //此法較簡便
+
+//自定義比較方式
+struct cmp {
+	bool operator() (const int & a, const int &b) const {
+		return a > b;
+	}
+};
+set<int, cmp>
