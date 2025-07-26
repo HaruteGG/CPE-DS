@@ -29,6 +29,10 @@ result = max_element(v.begin(), v.end());//找最大值
 
 pair<int, string> p1; //default constructor 
 pair<string, double>p2("zhouyu", 100); // overroad constructor
+
 vector< pair<int, int> > v;
 v.push_back(make_pair(int, int)); or v.push_back({int, int});
 for(auto i: v) // for cout vector< pair<int, int> > v;
+
+//2d vector
+vector<vector<int>> arr(n, vector<int>(m));
