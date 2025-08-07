@@ -201,4 +201,6 @@ int main()
 
 其實功能是可以混著用的,蠻多練習題目都是將他們活用,這樣就能省很多程式碼喔
  
-END
+do{
+        sn.insert(N);//sn是 set<string> sn
+    }while(next_permutation(N.begin(), N.end())); 自動將一段字串一直自動排列取得所有排列結果
